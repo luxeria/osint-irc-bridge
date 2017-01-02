@@ -1,0 +1,6 @@
+{:kafka [{:port 9092
+          :ip "127.0.0.1"}]
+ :zookeeper [{:port 2181
+              :ip "127.0.0.1"}]
+ :channels {"#luxeria" ["PT15S" "PT55S"]
+            "#clojure" ["PT20" "PT55S"]}}
